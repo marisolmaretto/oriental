@@ -1,0 +1,246 @@
+.titulo {
+    background-color: #FFC133;
+    color: black;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    
+    
+}
+
+body {
+    margin: 0;
+}
+
+.introducion {
+    background-color:white;
+    color: black;
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    margin: 50px;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
+.experiencia {
+    background-color: rebeccapurple;
+    width: 100wv;
+    height: 80hv;
+}
+
+.resultat {
+    background-color: #FFC133;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.creditos {
+    background-color: #FFC133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.imagenes {
+    background-color: indianred;
+    width: 100wv;
+    height: 50hv;
+}
+
+.texto {
+    text-align: center;
+    font-size: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Staatliches', cursive;
+    color: white;
+}
+
+.caja1 {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+header, .landscapeArt1, .landscapeArt2, .landscapeArt3{
+    width: 100vw;
+    height: 80vh;
+    
+}
+.landscapeArt1{
+    background-color: #FFC133;
+}
+.landscapeArt2{
+    background-color: #FFC133;
+}
+.landscapeArt3{
+    background-color: #FFC133;
+}
+
+.contenidorArt {
+    width: 300vw;
+    left: 0;
+    transition: left 1s;
+    display: flex;
+    position: relative;
+}
+
+.fletxes {
+    height: 40%;
+    background-color: #FFC133;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 20px;
+}
+
+
+.caja2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+}
+
+.fotikis {
+    background-image: url(../img/Captura%20de%20pantalla%202019-11-09%20a%20las%2015.31.57.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70%;
+    width: 40%;
+    margin: 10px;
+    
+}
+
+.texto1 {margin-bottom: 70%;
+    font-size: 23px;
+}
+
+.texto2 {
+    margin-bottom: 70%;
+    font-size: 24px;
+    letter-spacing: 7px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.texto3 {
+    padding-bottom:15%;
+}
+
+.titulo1 {
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.texto4 {
+    width: 100%;
+    padding-right: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
+
+
+
+
+
+
+.web1 {width: 90%;
+    height: 100%;
+    margin: 50px;
+}
+
+.web2 {
+   width: 90%;
+    height: 100%;
+    margin: 50px;
+    
+}
+
+.web3 {width: 90%;
+    height: 100%;
+    margin: 50px;
+    
+    
+}
+
+.imagen1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo3 {
+    background-color:  #FFC133;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.titulo2 {
+    width: 100vw;
+    height: 5vh;
+    background-color:  #FFC133;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.texto6 {
+    width: 100%;
+    height: 50%;
+    background-color: #FFC133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.texto5 {
+    width: 50%;
+    height: 6%;
+    background-color: #FFC133;
+    margin-bottom: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .fotikis{ width: 80%;
+        height: 50%;
+        
+    } 
+}
